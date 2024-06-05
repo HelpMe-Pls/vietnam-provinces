@@ -1,6 +1,6 @@
-const {searchAndPaginateDistricts, searchAndPaginateWards} = require('./index');
+const { getProvinces } = require("./index");
 
-(async()=>{
-    const rs = await searchAndPaginateDistricts({});
-    console.log('🎯 ~ file: test.js:7 ~ rs:', rs)
-})()
+(async () => {
+  const rs = await getProvinces();
+  console.log("🎯 generate test", rs);
+})();
