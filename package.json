@@ -1,6 +1,6 @@
 {
-  "name": "vietnam-provinces",
-  "version": "1.1.0",
+  "name": "vn-provinces",
+  "version": "1.0.0",
   "description": "A simple and easy-to-use npm package that provides a complete list of provinces and cities in Vietnam, including their names, codes, and geographical information.",
   "main": "src/index.js",
   "types": "src/types/index.d.ts",
@@ -10,12 +10,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/namph2102/vietnam-provinces.git"
+    "url": "git+https://github.com/namph2102/vietnam-provinces.git"
+  },
+  "include": [
+    "src"
+  ],
+  "directories": {
+    "lib": "lib"
   },
   "keywords": [
     "VN",
     "VietNam",
     "Provinces Npm",
+    "vn-provinces",
     "Hồ Chí Minh",
     "Sài Gòn",
     "Thành Phố",
@@ -28,7 +35,7 @@
     "city",
     "district"
   ],
-  "author": "Phạm Hoài Nam",
+  "author": "Phạm Hoài Nam <namph2102@gmail.com>",
   "license": "ISC",
   "homepage": "https://github.com/namph2102/vietnam-provinces#readme",
   "dependencies": {

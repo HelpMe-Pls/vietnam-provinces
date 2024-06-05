@@ -1,4 +1,4 @@
-## Nguồn data vietnam-provinces
+## Nguồn data vn-provinces
 
 https://www.gso.gov.vn/phuong-phap-thong-ke/danh-muc/don-vi-hanh-chinh/
 
@@ -9,8 +9,8 @@ A simple and easy-to-use npm package that provides a complete list of provinces 
 ## Install
 
 ```
-$ npm i vietnam-provinces
-$ yarn add vietnam-provinces
+$ npm i vn-provinces
+$ yarn add vn-provinces
 
 ```
 
@@ -44,7 +44,7 @@ $ yarn add vietnam-provinces
 #### getProvinces
 
 ```
-import {getProvinces} from "vietnam-provinces";
+import {getProvinces} from "vn-provinces";
 
  console.log(getProvinces());
  [
@@ -67,7 +67,7 @@ import {getProvinces} from "vietnam-provinces";
 #### getProvinceByCode
 
 ```
-import {getProvinceByCode} from "vietnam-provinces";
+import {getProvinceByCode} from "vn-provinces";
 
  console.log(getProvinceByCode('01'));
  {
@@ -82,7 +82,7 @@ import {getProvinceByCode} from "vietnam-provinces";
 #### getDistricts
 
 ```
-import {getDistricts} from "vietnam-provinces";
+import {getDistricts} from "vn-provinces";
 
  console.log(getDistricts());
 
@@ -121,7 +121,7 @@ import {getDistricts} from "vietnam-provinces";
 #### getDistrictByCode
 
 ```
-import {getDistrictByCode} from "vietnam-provinces";
+import {getDistrictByCode} from "vn-provinces";
 
  console.log(getDistrictByCode('120'));
  {
@@ -139,7 +139,7 @@ import {getDistrictByCode} from "vietnam-provinces";
 #### getWards
 
 ```
-import {getWards} from "vietnam-provinces";
+import {getWards} from "vn-provinces";
 
  console.log(getWards());
 
@@ -173,7 +173,7 @@ import {getWards} from "vietnam-provinces";
 #### getWardByCode
 
 ```
-import {getWardByCode} from "vietnam-provinces";
+import {getWardByCode} from "vn-provinces";
 
  console.log(getWardByCode('00292'));
  {
