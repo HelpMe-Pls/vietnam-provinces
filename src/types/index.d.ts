@@ -1,13 +1,40 @@
 // index.d.ts
+
+export interface IProvinces {
+  code: string;
+  name: string;
+  slug: string;
+  unit: string;
+}
+export interface IDistricts {
+  code: string;
+  name: string;
+  slug: string;
+  unit: string;
+  provinceCode: string;
+  provinceName: string;
+  fullName: string;
+}
+export interface IWards {
+  code: string;
+  name: string;
+  slug: string;
+  unit: string;
+  provinceCode: string;
+  provinceName: string;
+  fullName: string;
+}
 declare module "vn-provinces" {
-  export function getProvinces(): any[];
-  export function getDistricts(): any[];
-  export function getWards(): any[];
-  export function getProvinceByCode(code: string): any;
-  export function getDistrictByCode(code: string): any;
-  export function getWardByCode(code: string): any;
-  export function getDistrictsByProvinceCode(provinceCode: string): any[];
-  export function getWardsByDistrictCode(districtCode: string): any[];
+  export function getProvinces(): IProvinces[];
+  export function getDistricts(): IDistricts[];
+  export function getWards(): IWards[];
+  export function getProvinceByCode(code: string): IProvinces;
+  export function getDistrictByCode(code: string): IDistricts;
+  export function getWardByCode(code: string): IWards;
+  export function getDistrictsByProvinceCode(
+    provinceCode: string
+  ): IDistricts[];
+  export function getWardsByDistrictCode(districtCode: string): IWards[];
 
   /**
    * Search and paginate through a list of Districts.
