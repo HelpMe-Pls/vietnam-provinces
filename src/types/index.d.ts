@@ -1,5 +1,5 @@
 // index.d.ts
-declare module "vn-local-plus" {
+declare module "vn-provinces" {
   export function getProvinces(): any[];
   export function getDistricts(): any[];
   export function getWards(): any[];
@@ -27,7 +27,7 @@ declare module "vn-local-plus" {
     searchText?: string;
     page?: number;
     pageSize?: number;
-  }): Promise<{data: Array<Object>, remainingRecords: number}>;
+  }): Promise<{ data: Array<Object>; remainingRecords: number }>;
 
   /**
    * Search and paginate through a list of Provinces.
@@ -47,7 +47,7 @@ declare module "vn-local-plus" {
     searchText?: string;
     page?: number;
     pageSize?: number;
-  }): Promise<{data: Array<Object>, remainingRecords: number}>;
+  }): Promise<{ data: Array<Object>; remainingRecords: number }>;
 
   /**
    * Search and paginate through a list of wards.
@@ -67,5 +67,5 @@ declare module "vn-local-plus" {
     searchText?: string;
     page?: number;
     pageSize?: number;
-  }): Promise<{data: Array<Object>, remainingRecords: number}>;
+  }): Promise<{ data: Array<Object>; remainingRecords: number }>;
 }

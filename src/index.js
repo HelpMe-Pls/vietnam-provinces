@@ -1,3 +1,9 @@
+/**
+ * Author: Phạm Hoài Nam
+ * Job: Web Developer
+ * created At 05/06/2024
+ *
+ */
 const provinces = require("./jsonFiles/provinces");
 const districts = require("./jsonFiles/districts");
 const wards = require("./jsonFiles/wards");
