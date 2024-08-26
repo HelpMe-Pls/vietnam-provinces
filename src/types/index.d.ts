@@ -20,6 +20,8 @@ export interface IWards {
   name: string;
   slug: string;
   unit: string;
+  districtCode: string;
+  districtName: string;
   provinceCode: string;
   provinceName: string;
   fullName: string;
