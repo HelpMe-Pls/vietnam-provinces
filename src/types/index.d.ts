@@ -26,7 +26,7 @@ export interface IWards {
   provinceName: string;
   fullName: string;
 }
-declare module "vn-provinces" {
+declare module "sst-provinces" {
   export function getProvinces(): IProvinces[];
   export function getDistricts(): IDistricts[];
   export function getWards(): IWards[];

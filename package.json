@@ -1,6 +1,6 @@
 {
   "name": "sst-provinces",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "A simple and easy-to-use npm package that provides a complete list of provinces and cities in Vietnam, including their names, codes, and geographical information.",
   "main": "src/index.js",
   "types": "src/types/index.d.ts",
